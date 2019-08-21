@@ -10,7 +10,11 @@ namespace AnimalApp
     {
         static void Main(string[] args)
         {
-
+            Dog c = new Dog();
+            c.Weight = 30;
+            c.Color = "Brown";
+            c.MakeSound(1);
+            c.MyMethod();
             Console.ReadKey();
         }
     }

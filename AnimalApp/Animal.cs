@@ -9,12 +9,15 @@ namespace AnimalApp
     abstract class Animal
     {
         private int _weight;
+        private string _color;
         //property
         public int Weight
         {
             get { return _weight; }
             set { _weight = value; }
         }
+        public string Color { get { return _color; } set { _color = value; } }
+
         public abstract void Eat();
         public void MakeSound()
         {
@@ -24,7 +27,7 @@ namespace AnimalApp
         {
             Console.WriteLine("Animal base ...");
         }
-        public virtual void myMethod()
+        public virtual void MyMethod()
         {
             Console.WriteLine("Animal mymethod ...");
         }

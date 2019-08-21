@@ -12,14 +12,15 @@ namespace AnimalApp
         {
 
         }
-        public void MakeSound(int i) { Console.WriteLine("Sound bark,bark ..."); }
+        public void MakeSound(int i) { Console.WriteLine("Dog: Sound bark,bark ..."); }
         public Dog()
         {
             //base.MakeSound();
             //base.myMethod();
+            
             Console.WriteLine("Dog construct ...");
         }
-        public override void myMethod()
+        public override void MyMethod()
         {
             Console.WriteLine("Dog mymethod ...");
         }
