@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.779
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalApp", "AnimalApp.csproj", "{676C246D-F2C0-4208-BF6D-D689103EAF14}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2691FDD2-87B1-4B9F-8C62-EC662F1A561F}
+		SolutionGuid = {DA78C2BE-99A5-470B-BC4F-6A9BE78DAB89}
 	EndGlobalSection
 EndGlobal
